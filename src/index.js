@@ -9,12 +9,12 @@ import ThirdComponent from "./ThirdComponent";
 ReactDOM.render(
   <React.StrictMode>
     <div>
-    <BrowserRouter>
+    <BrowserRouter  basename="/params-tutorial"  >
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/params-tutorial" element={<App />} />
-        <Route path="other/:param1" element={<OtherComponent/>} />
-        <Route path="other/:param1/:param2" element={<ThirdComponent />} />
+        <Route path="/" element={<App />} />
+        <Route path="/other/:param1" element={<OtherComponent/>} />
+        <Route path="/other/:param1/:param2" element={<ThirdComponent />} />
         <Route path="/:blabla" element={<App />} />
       </Routes>
     </BrowserRouter>
