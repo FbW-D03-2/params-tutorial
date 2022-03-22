@@ -1,7 +1,7 @@
 {
   "name": "params-tutorial",
   "version": "0.1.0",
-  "homepage": "https://nlspnsgen.github.io/params-tutorial",
+  "homepage": "https://FbW-d03-2.github.io/params-tutorial",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
